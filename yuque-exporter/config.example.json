@@ -1,0 +1,6 @@
+{
+  "api_token": "YOUR_YUQUE_API_TOKEN",
+  "user_id": "YOUR_USER_ID_OR_NAMESPACE",
+  "output_dir": "raw/yuque",
+  "target_wiki_root": "/Users/zhanghao/Downloads/笔记/笔记"
+}

@@ -1,0 +1,6 @@
+# bookmark-to-wiki 依赖
+# Python 3.10+ 无额外依赖（使用标准库）
+
+# 如需扩展功能：
+# requests>=2.28.0  # HTTP 请求
+# tqdm>=4.64.0      # 进度条

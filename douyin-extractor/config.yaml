@@ -1,0 +1,21 @@
+# Douyin Extractor 配置文件
+
+# 抖音网页版 Cookie（重要！需要从浏览器登录后获取）
+# 获取方式：
+#   1) 浏览器登录 douyin.com → F12 → Network → 任意请求 → Headers → Cookie
+#   2) 使用浏览器插件导出 cookies.txt 到本项目目录，程序会自动读取
+douyin_cookie: ""
+
+# Netscape Cookie 文件路径（浏览器插件导出的 cookies.txt）
+# 如果设置了此路径且 douyin_cookie 为空，程序会自动从文件提取抖音 Cookie
+cookie_file: "cookies.txt"
+
+# 请求头 User-Agent
+user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+# Whisper 模型配置
+whisper_model: "small"  # tiny/base/small/medium/large-v2
+
+# 下载配置
+download_timeout: 60  # 秒
+max_retries: 3
