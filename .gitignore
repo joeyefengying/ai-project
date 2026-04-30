@@ -12,6 +12,11 @@ config.local.yaml
 .env.*
 
 # ====================
+# 不公开的项目 / Private Projects
+# ====================
+claude code/
+
+# ====================
 # 产物目录 / Output Directories
 # ====================
 # yuque-exporter

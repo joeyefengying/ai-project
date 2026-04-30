@@ -19,7 +19,6 @@
 | [bookmark-to-wiki](bookmark-to-wiki/) | 内容聚合 | 网页抓取 + LLM | 个人知识库 |
 | [video-transcript-bilingual](video-transcript-bilingual/) | 多语言转录 | yt-dlp + Whisper | 视频学习工具 |
 | [yp-dlp](yp-dlp/) | 视频下载 | yt-dlp | 通用下载器 |
-| [claude code](claude%20code/) | Claude CLI 参考 | TypeScript | AI 编程助手 |
 
 ---
 
@@ -117,12 +116,6 @@ python3 scripts/video_to_transcript.py --url "<VIDEO_URL>"
 **测试的 AI 能力：**
 - 多平台视频源适配
 - 音视频分离与合并
-
----
-
-### claude code
-
-Claude Code CLI 源码参考，用于学习 AI 编程助手的实现。
 
 ---
 
