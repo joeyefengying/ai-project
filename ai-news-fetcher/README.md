@@ -52,7 +52,7 @@ ai-news-fetcher/
 │   └── sources.yaml          # 数据源配置
 ├── cache/
 │   ├── fetched_articles.json # 已抓取文章缓存
-│   └ article_dedup.json      # 去重缓存
+│   └── article_dedup.json    # 去重缓存
 ├── logs/
 │   └ errors.log              # 错误日志
 │   └ status_report.md        # 状态报告
@@ -143,19 +143,19 @@ python3 scripts/digest_articles.py --list
 文章保存到：
 ```
 /Users/zhanghao/Downloads/笔记/笔记/raw/
-├── news/           # AI 新闻
-│   ├── xxx.md      # 英文原文
-│   └── xxx-zh.md   # 中文翻译
-└── tech-articles/  # AI 技术文章
-    ├── xxx.md      # 英文原文
-    └── xxx-zh.md   # 中文翻译
+├── news/           # AI 新闻（中文翻译）
+│   └── xxx-zh.md   # 中文标题 + 翻译正文 + 原文对照
+└── tech-articles/  # AI 技术文章（中文翻译）
+    └── xxx-zh.md   # 中文标题 + 翻译正文 + 原文对照
 ```
 
 ## 当前已抓取文章
 
-- **新闻**: 38 篇（已翻译 20 篇）
-- **技术文章**: 20 篇（已翻译 20 篇）
-- **总计**: 58 篇
+- **新闻**: 20 篇（全部已翻译为中文）
+- **技术文章**: 20 篇（全部已翻译为中文）
+- **总计**: 40 篇
+
+> 每篇翻译文章包含中文标题、翻译正文和原文对照
 
 ## 注意事项
 
