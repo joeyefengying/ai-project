@@ -1,0 +1,139 @@
+# AI 新闻和技术文章数据源配置
+
+# ===========================================
+# AI 新闻源（存放到 raw/news/）
+# ===========================================
+
+news_sources:
+  # 英文源
+  anthropic_blog:
+    name: "Anthropic Blog"
+    url: "https://www.anthropic.com/news"
+    type: "blog"
+    lang: "en"
+    fetch_method: "rss"  # 或 scrape
+    rss_url: "https://www.anthropic.com/feed"  # 如果有 RSS
+
+  openai_blog:
+    name: "OpenAI Blog"
+    url: "https://openai.com/blog"
+    type: "blog"
+    lang: "en"
+    fetch_method: "scrape"
+
+  google_ai:
+    name: "Google AI Blog"
+    url: "https://ai.googleblog.com/"
+    type: "blog"
+    lang: "en"
+    fetch_method: "rss"
+
+  mit_tr_ai:
+    name: "MIT Technology Review - AI"
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/"
+    type: "news"
+    lang: "en"
+    fetch_method: "scrape"
+
+  venturebeat_ai:
+    name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/"
+    type: "news"
+    lang: "en"
+    fetch_method: "scrape"
+
+  # 中文源
+  36kr_ai:
+    name: "36氪 - AI"
+    url: "https://36kr.com/motif/AI"
+    type: "news"
+    lang: "zh"
+    fetch_method: "scrape"
+
+  jiqizhixin:
+    name: "机器之心"
+    url: "https://www.jiqizhixin.com/"
+    type: "news"
+    lang: "zh"
+    fetch_method: "scrape"
+
+# ===========================================
+# AI 技术文章源（存放到 raw/tech-articles/）
+# ===========================================
+
+tech_sources:
+  huggingface_blog:
+    name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog"
+    type: "tech_blog"
+    lang: "en"
+    fetch_method: "scrape"
+
+  arxiv_ai:
+    name: "arXiv - Artificial Intelligence"
+    url: "https://arxiv.org/list/cs.AI/recent"
+    type: "papers"
+    lang: "en"
+    fetch_method: "api"
+    api_url: "http://export.arxiv.org/api/query"
+
+  papers_with_code:
+    name: "Papers With Code - AI"
+    url: "https://paperswithcode.com/sota"
+    type: "papers"
+    lang: "en"
+    fetch_method: "scrape"
+
+  distill:
+    name: "Distill"
+    url: "https://distill.pub/"
+    type: "journal"
+    lang: "en"
+    fetch_method: "scrape"
+
+  github_ai_trending:
+    name: "GitHub Trending - AI"
+    url: "https://github.com/trending/artificial-intelligence"
+    type: "code"
+    lang: "en"
+    fetch_method: "scrape"
+
+# ===========================================
+# 抓取配置
+# ===========================================
+
+fetch_config:
+  # 默认抓取间隔（小时）
+  default_interval: 24
+
+  # 每次抓取最大文章数
+  max_articles_per_fetch: 10
+
+  # 请求超时（秒）
+  request_timeout: 30
+
+  # 重试次数
+  max_retries: 3
+
+  # 请求间隔（秒）避免被封
+  request_delay: 2
+
+# ===========================================
+# 知识库配置
+# ===========================================
+
+wiki_config:
+  # 知识库根路径
+  wiki_root: "/Users/zhanghao/Downloads/笔记/笔记"
+
+  # 新闻存储路径
+  news_dir: "raw/news"
+
+  # 技术文章存储路径
+  tech_dir: "raw/tech-articles"
+
+  # 是否自动消化到 wiki
+  auto_digest: true
+
+  # digest 使用的 skill
+  digest_skill: "llm-wiki"

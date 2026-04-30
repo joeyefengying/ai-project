@@ -1,0 +1,152 @@
+{
+  "ff27eec68606": {
+    "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+    "title": "AI evals are becoming the new compute bottleneck",
+    "fetched_at": "2026-04-30T16:34:16.294748"
+  },
+  "e846d8ac324f": {
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "title": "Granite 4.1 LLMs: How They’re Built",
+    "fetched_at": "2026-04-30T16:34:16.294889"
+  },
+  "68a349e59bcf": {
+    "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+    "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+    "fetched_at": "2026-04-30T16:34:16.294930"
+  },
+  "7ecaff045879": {
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "fetched_at": "2026-04-30T16:34:16.294952"
+  },
+  "9a2ab5fb67c8": {
+    "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+    "fetched_at": "2026-04-30T16:34:16.294968"
+  },
+  "7c3856473516": {
+    "url": "https://huggingface.co/blog/deepseekv4",
+    "title": "DeepSeek-V4: a million-token context that agents can actually use",
+    "fetched_at": "2026-04-30T16:34:16.294983"
+  },
+  "2a6a95578637": {
+    "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+    "title": "How to Use Transformers.js in a Chrome Extension",
+    "fetched_at": "2026-04-30T16:34:16.295405"
+  },
+  "123cdc9d133c": {
+    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "fetched_at": "2026-04-30T16:34:16.295483"
+  },
+  "a075431204f4": {
+    "url": "https://huggingface.co/blog/cybersecurity-openness",
+    "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+    "fetched_at": "2026-04-30T16:34:16.295518"
+  },
+  "44428132b37f": {
+    "url": "https://huggingface.co/blog/ecom-rlve",
+    "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+    "fetched_at": "2026-04-30T16:34:16.295556"
+  },
+  "e5fab6be126a": {
+    "url": "http://arxiv.org/abs/2604.26951v1",
+    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+    "arxiv_id": "2604.26951v1",
+    "fetched_at": "2026-04-30T16:38:21.016327"
+  },
+  "d4e8b2f71502": {
+    "url": "http://arxiv.org/abs/2604.26919v1",
+    "title": "Causal Learning with Neural Assemblies",
+    "arxiv_id": "2604.26919v1",
+    "fetched_at": "2026-04-30T16:38:21.018444"
+  },
+  "591dba36752a": {
+    "url": "http://arxiv.org/abs/2604.26904v1",
+    "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+    "arxiv_id": "2604.26904v1",
+    "fetched_at": "2026-04-30T16:38:21.019763"
+  },
+  "282226281193": {
+    "url": "http://arxiv.org/abs/2604.26903v1",
+    "title": "Recent Advances in mm-Wave and Sub-THz/THz Oscillators for FutureG Technologies",
+    "arxiv_id": "2604.26903v1",
+    "fetched_at": "2026-04-30T16:38:21.020290"
+  },
+  "93d388077d6b": {
+    "url": "http://arxiv.org/abs/2604.26851v1",
+    "title": "Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows",
+    "arxiv_id": "2604.26851v1",
+    "fetched_at": "2026-04-30T16:38:21.020371"
+  },
+  "9eb857077e85": {
+    "url": "http://arxiv.org/abs/2604.26841v1",
+    "title": "Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data",
+    "arxiv_id": "2604.26841v1",
+    "fetched_at": "2026-04-30T16:38:21.020411"
+  },
+  "e2c8ace7007c": {
+    "url": "http://arxiv.org/abs/2604.26835v1",
+    "title": "HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists",
+    "arxiv_id": "2604.26835v1",
+    "fetched_at": "2026-04-30T16:38:21.020446"
+  },
+  "533410faa90f": {
+    "url": "http://arxiv.org/abs/2604.26833v1",
+    "title": "Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training",
+    "arxiv_id": "2604.26833v1",
+    "fetched_at": "2026-04-30T16:38:21.020512"
+  },
+  "ed09f860d27b": {
+    "url": "http://arxiv.org/abs/2604.26830v1",
+    "title": "Random Cloud: Finding Minimal Neural Architectures Without Training",
+    "arxiv_id": "2604.26830v1",
+    "fetched_at": "2026-04-30T16:38:21.020548"
+  },
+  "8c187751f54c": {
+    "url": "http://arxiv.org/abs/2604.26806v1",
+    "title": "ViCrop-Det: Spatial Attention Entropy Guided Cropping for Training-Free Small-Object Detection",
+    "arxiv_id": "2604.26806v1",
+    "fetched_at": "2026-04-30T16:38:21.020580"
+  },
+  "1257b59c9d45": {
+    "url": "https://36kr.com/p/3789059666173189?f=rss",
+    "title": "氪星晚报｜澳门一季度GDP按年实质增长7.1%；小红书发内部信：加大AI投入，柯南出任总裁",
+    "fetched_at": "2026-04-30T17:10:25.042348"
+  },
+  "54cb1d77ca48": {
+    "url": "https://36kr.com/p/3788996733803782?f=rss",
+    "title": "不谈空话，谈合作丨这场AI+产业对接会只聊落地",
+    "fetched_at": "2026-04-30T17:10:25.042410"
+  },
+  "d0f70bfa1f73": {
+    "url": "https://36kr.com/p/3788687934249989?f=rss",
+    "title": "「优时科技」完成数亿元B2轮融资，从L4视觉自动驾驶延展至人形机器人，打造数据飞轮｜36氪首发",
+    "fetched_at": "2026-04-30T17:10:25.042433"
+  },
+  "c5c3b1043a0e": {
+    "url": "https://36kr.com/p/3788573115735299?f=rss",
+    "title": "8点1氪丨官方通报“霸王茶姬中喝出水银”；马斯克称创办OpenAI只为拯救人类；三星家族财富一年翻倍至3000亿跃居亚洲第三",
+    "fetched_at": "2026-04-30T17:10:25.042441"
+  },
+  "60f38f6d96e6": {
+    "url": "https://36kr.com/p/3787339522432256?f=rss",
+    "title": "「微滔生物」A轮次融资超5000万美元，LNP路线体内CAR-T已发表初步人体数据",
+    "fetched_at": "2026-04-30T17:10:25.042448"
+  },
+  "5a90ac9b1bc8": {
+    "url": "https://36kr.com/p/3788151000751364?f=rss",
+    "title": "别急着All-in DeepSeek V4，先看看这10位从业者的真心话",
+    "fetched_at": "2026-04-30T17:10:25.042454"
+  },
+  "885b288ae1ea": {
+    "url": "https://36kr.com/p/3787748082293766?f=rss",
+    "title": "氪星晚报 ｜腾讯ima推出全新知识Agent——copilot；魔法原子：目标到2036年营收达140亿美元",
+    "fetched_at": "2026-04-30T17:10:25.042461"
+  },
+  "0b99cd6f5254": {
+    "url": "https://36kr.com/newsflashes/3789015541439491?f=rss",
+    "title": "亚马逊云科技推出桌面AI助手Amazon Quick",
+    "fetched_at": "2026-04-30T17:10:25.042475"
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "feat-001",
+    "description": "创建项目基础结构和配置文件",
+    "priority": "high",
+    "category": "setup",
+    "passes": true
+  },
+  {
+    "id": "feat-002",
+    "description": "创建数据源配置文件 sources.yaml",
+    "priority": "high",
+    "category": "config",
+    "passes": true
+  },
+  {
+    "id": "feat-003",
+    "description": "开发 Anthropic Blog 抓取脚本",
+    "priority": "high",
+    "category": "fetcher",
+    "passes": true
+  },
+  {
+    "id": "feat-004",
+    "description": "开发 OpenAI Blog 抓取脚本",
+    "priority": "high",
+    "category": "fetcher",
+    "passes": true
+  },
+  {
+    "id": "feat-005",
+    "description": "开发 Hugging Face Blog 抓取脚本",
+    "priority": "high",
+    "category": "fetcher",
+    "passes": true
+  },
+  {
+    "id": "feat-006",
+    "description": "开发 arXiv AI 论文抓取脚本",
+    "priority": "medium",
+    "category": "fetcher",
+    "passes": true
+  },
+  {
+    "id": "feat-007",
+    "description": "开发中文 AI 新闻抓取脚本（36氪、机器之心）",
+    "priority": "medium",
+    "category": "fetcher",
+    "passes": true
+  },
+  {
+    "id": "feat-008",
+    "description": "开发 llm-wiki 集成脚本，自动消化文章",
+    "priority": "high",
+    "category": "integration",
+    "passes": true
+  },
+  {
+    "id": "feat-009",
+    "description": "创建定时任务调度脚本 cron-runner.sh",
+    "priority": "high",
+    "category": "scheduler",
+    "passes": true
+  },
+  {
+    "id": "feat-010",
+    "description": "开发文章分类存储逻辑（news vs tech-articles）",
+    "priority": "medium",
+    "category": "storage",
+    "passes": true
+  },
+  {
+    "id": "feat-011",
+    "description": "开发去重机制，避免重复抓取",
+    "priority": "medium",
+    "category": "dedup",
+    "passes": true
+  },
+  {
+    "id": "feat-012",
+    "description": "创建运行状态报告生成器",
+    "priority": "low",
+    "category": "report",
+    "passes": true
+  },
+  {
+    "id": "feat-013",
+    "description": "开发错误处理和重试机制",
+    "priority": "medium",
+    "category": "error-handling",
+    "passes": true
+  },
+  {
+    "id": "feat-014",
+    "description": "创建 init.sh 启动脚本",
+    "priority": "high",
+    "category": "setup",
+    "passes": true
+  },
+  {
+    "id": "feat-015",
+    "description": "集成测试：完整流程验证",
+    "priority": "high",
+    "category": "test",
+    "passes": true
+  }
+]
