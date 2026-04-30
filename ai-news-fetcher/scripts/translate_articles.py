@@ -164,6 +164,9 @@ def translate_article(filepath: str, keep_original: bool = True) -> str:
         new_front
     )
     # 添加 original_title 和 translated
+    # 确保 front matter 结尾有换行
+    if not new_front.endswith('\n'):
+        new_front += '\n'
     if 'original_title:' not in new_front:
         new_front += f'original_title: "{article["title"]}"\n'
     if 'translated:' not in new_front:
